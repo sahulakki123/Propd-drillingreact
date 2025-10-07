@@ -11,11 +11,28 @@ let my={
   city:"Betul"
 }
 
+
+
+let theme={
+  dark:{
+    "background-color":"black",
+    "color":"white"
+  },
+  light:{
+    "background-color":"white",
+    "color":"black"
+  }
+}
+
+
+
+
+
 createRoot(document.getElementById('root')).render(
 
-  <Mycontext.Provider value={my}>
+  <Mycontext.Provider value={{theme,my}}>
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
   </Mycontext.Provider>
 )
