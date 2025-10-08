@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './Ccontext.jsx'
+import App from './Usestate.jsx'
 import Mycontext from './Mycontext.jsx'
 
 

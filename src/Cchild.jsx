@@ -16,7 +16,6 @@ const Cchild=()=>{
 
     // const mydata=useContext(Mycontext)
     const {mytheme,my}=useContext(Mycontext)
-    const [theme, settheme]=useContext(false)
     return(
         <>
         <div style={mytheme.light}>
@@ -26,9 +25,7 @@ const Cchild=()=>{
         <p>My Name is {my.name}</p>
         <p>and age is {my.age}</p>
         <p> city is {my.city}</p>
-        
 
-        <button onClick={()=>{settheme(!theme)}}> chilk</button>
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1 style={{ color: color }}>Hello Lakki</h1>
       <button 
